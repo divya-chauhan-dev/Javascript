@@ -44,7 +44,18 @@ console.log(+true);         // gives 1
 console.log(+"");          // gives 0
 
 
+let num1, num2, num3;
 
+num1 = num2 = num3 = 2+2;          // this is right but not a good represenation for good code readability
+
+
+let gameCounter = 100;
+gameCounter++;                     // here we are using postfix operator similarly we can use prefix operator 
+console.log(gameCounter);          // as well like ++gameCounter;
+
+
+
+//for to learn more about prefix and postfix we can go for  "prefix and postfix js mdn"
 
 
 
